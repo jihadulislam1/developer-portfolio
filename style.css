@@ -1,6 +1,8 @@
 body{
     font-family: 'Public Sans', sans-serif;
     margin: 0;
+    
+
 }
 h1{
     font-size: 50px;
@@ -13,6 +15,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .jinku{
     width: 50%;
@@ -26,16 +29,25 @@ section{
 .link-button
    {
     text-decoration: none;
-    background-color: red;
+    background:orange;
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
     }
     .top-bunn{
-
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
 
+
     }
+    .dream-big{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+
+       
+
 
